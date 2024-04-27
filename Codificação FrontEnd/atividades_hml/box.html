@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadros</title>
+    <style>
+      .cabecalho {
+        display: flex;
+        background-color: yellow;
+        color: red;
+        justify-content: center;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 10px;
+      }
+      .container1 {
+        display: flex;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        justify-content: space-between;
+      }
+      .container2 {
+        display: flex;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        justify-content: flex-end;       
+      }
+      .container3 {
+        display: flex;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        justify-content: flex-start;
+      }
+      .div {
+        display: flex;
+        border: 2px solid black;
+        padding: 30px;
+        margin: 2px;
+        width: 60px;
+      }
+      .divr {
+        background-color: red;
+      }
+      .divb {
+        background-color: blue;
+      }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="cabecalho">Cabeçalho</h1>
+    </header>
+    <div>
+        <div class="container1">
+        <div class="div divr">div1</div>
+        <div class="div divb">div2</div>
+        <div class="div divr">div3</div>
+        <div class="div divb">div4</div>
+    </div>
+    </div>
+    <div>
+        <div class="container2">
+         <div class="div divr">div5</div>
+         <div class="div divb">div6</div>
+         <div class="div divr">div7</div>   
+        </div>     
+    </div>
+
+    <div>
+    <div class="container3">
+        <div class="div divr">div8</div>
+        <div class="div divb">div9</div>
+        <div class="div divr">div10</div>   
+       </div>     
+   </div>
+    
+</body>
+</html>

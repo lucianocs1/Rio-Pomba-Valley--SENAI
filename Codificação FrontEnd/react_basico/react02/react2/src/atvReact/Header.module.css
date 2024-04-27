@@ -1,0 +1,23 @@
+.header{
+    color: white;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.header ul{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: space-between
+}
+
+.header li{
+    list-style: none;
+    font-size: 30px;
+}

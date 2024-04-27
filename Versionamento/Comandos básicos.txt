@@ -1,0 +1,15 @@
+git init
+git config --global user.name "luciano"
+git config --global user.email "0000123338@senaimgaluno.com.br"
+git config --list
+git status
+git add .
+git commit -m "inclusao de 3 arquivos"
+git log
+git remote -v
+git remote add origin https://github.com/lucianocsf/aula
+git push -u origin master (colocar chave do repositorio)
+git branch (ver branch s)
+git branch {nome-branch} (criar branch)
+git checkout {nome-branch} (trocar de branch)
+git merge {nome-branch} (unir as branch na principal)
