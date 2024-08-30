@@ -13,6 +13,18 @@ api.get('/', (req, res) => {
             res.json(rotapadrao)
 })
 
+api.post('/cliente/novo', (req, res) => {
+    const response = [
+
+        {
+            mensagem: 'Cliente criado com sucesso',
+            status: 201
+        }
+    ]
+    res.status(201)
+    res.json(response)
+})
+
 api.listen(porta, () =>{
     console.log(`Servidor rodando na porta: ${porta}`)
 })
