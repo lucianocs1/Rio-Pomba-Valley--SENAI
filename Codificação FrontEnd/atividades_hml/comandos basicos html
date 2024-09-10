@@ -1,0 +1,29 @@
+ctrl + D = SELECIONA ABERTURA E FECHAMENTO TAG
+ctrl + shift + L = SELECIONA TODAS TAG
+
+TAGS
+
+<p></p> = paragrafo
+<i> = italico
+<u> = sublinhado
+<b> = negrito
+<em> = enfase
+<a> = linkar a palavra em algum arquivo/site
+<del> = riscar no meio a palavra
+<small> = deixar a palavra menor
+<sup> = elevar a numero
+<sub> = abaixar o numero
+<q> = citação ""
+<pre><code> = quando for código
+<strong> = "palavra mais forte"
+<h1></h1> = titulo
+li = list itens
+ol = abrir listagem (numeração)
+ul = abrir listagem (bolinha *)
+<br> = pular linha
+<hr> = linha no meio da pagina
+<a href="https://www.instagram.com/">Instagram</a>    // linkar e entrar no msm endereço
+<a href="https://www.instagram.com/" target="_blank">Instagram</a> //  entrar em outra aba
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png" alt="" width="80">
+<a href="https://www.instagram.com/" target="_blank"><button>Diretório Instagram</button></a>
+-----------------------------------------------------------

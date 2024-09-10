@@ -1,0 +1,87 @@
+    justify-content: center;
+    align-items: center;
+.barramenu {
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    color: brown;
+}
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+}
+.menu li {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.menu li a {
+    padding: 10px;
+    border: 2px solid black;
+    display: block;
+}
+
+.divs {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+.div1, .div2, .div3 {
+    display: flex;
+    border: 1px solid black;
+}
+
+
+.divisao {
+    background-color: black;
+    height: 10px;
+    margin: 0px;
+}
+.img {
+padding: 10px;
+width: 10px;
+}
+
+.imagens {
+    display: flex;
+   justify-content: space-around;
+   padding-bottom: 10px;
+   border: 1px solid black;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   padding-top: 10px;
+}
+.imagemDestaque {
+   border: 1px solid black;
+   box-shadow: crimson 2px 2px 3px;
+   
+}
+
+.imgDestaque {
+    width: 300px;
+    
+}
+
+.rodape {
+    background-color: greenyellow;
+    border: 5px solid black;
+    display: flex;
+}
+.imgedu {
+    width: 400px;
+    padding: 20px;
+    margin-left: 50%;
+}
+
+.divroda {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
